@@ -290,7 +290,7 @@ int main(int argc, char ** argv)
         return EXIT_FAILURE;
     }
 
-    char confName[14] = "./.aux";
+    char confName[14] = "./.git";
     char * fileName = (argc == 1)? confName: argv[1];
     char from[MAX_URL_SIZE];
     info_t info;
